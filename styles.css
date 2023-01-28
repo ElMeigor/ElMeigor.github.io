@@ -1,4 +1,4 @@
-﻿h2 {
+h2 {
     color: green;
     font-size: 40px;
 }
@@ -7,6 +7,11 @@
     border: 5px outset green;
     background-color: lightgrey;
     text-align: center;
+}
+
+.textBox {
+    border: 5px outset green;
+    background-color: lightgrey;
 }
 
 .bottomBox {
@@ -65,3 +70,4 @@ p {
     padding: 5px;
     margin: 5px;
 }
+
