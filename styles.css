@@ -1,22 +1,24 @@
-h2 {
+﻿h2 {
     color: green;
     font-size: 40px;
 }
 
 .Box {
     border: 5px outset green;
-    background-color: lightgrey;
+    background-color: #e5dfcc;
     text-align: center;
-}
-
-.textBox {
-    border: 5px outset green;
-    background-color: lightgrey;
+    width: 600px;
 }
 
 .bottomBox {
-    border: 7px outset green;
-    background-color: lightgrey;
+    border: 3px outset green;
+    background-color: #e5dfcc;
+    text-align: center;
+}
+
+.linksBox {
+    border: 3px outset green;
+    background-color: #e5dfcc;
     text-align: center;
 }
 
@@ -29,22 +31,17 @@ body {
     margin-left:20px;
 }
 
-@keyframes anim {
-    from {
-        background-position: 0 0;
-    }
-
-    to {
-        background-position: 498px 393px;
-    }
-}
-
 .textRight {
     text-align: right;
 }
 
 .textCenter {
     text-align: center;
+}
+
+.textLeft {
+    text-align: left;
+    font-size: 20px;
 }
 
 p {
@@ -56,18 +53,38 @@ p {
 }
 
 .whoMeister {
-    background-color: lightgrey;
+    background-color: #e5dfcc;
     width: 600px;
-    border: 10px outset green;
+    border: 7px outset green;
     padding: 5px;
     margin: 5px;
 }
 
 .stuffDone {
-    background-color: lightgrey;
+    background-color: #e5dfcc;
     width: 400px;
-    border: 10px outset green;
+    border: 7px outset green;
     padding: 5px;
     margin: 5px;
+}
+
+.contentBoxLarge {
+    background-color: #e5dfcc;
+    width: 1000px;
+    border: 3px outset green;
+    padding: 0px;
+    margin: 10px;
+    text-align: left;
+    font-size: 17px;
+}
+
+.contentBoxMedium {
+    background-color: #e5dfcc;
+    width: 800px;
+    border: 3px outset green;
+    padding: 0px;
+    margin: 10px;
+    text-align: left;
+    font-size: 17px;
 }
 

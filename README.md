@@ -1,3 +1,0 @@
-# ElMeigor.github.iowwwwwwwwww
-
-I scrapped this thing...
