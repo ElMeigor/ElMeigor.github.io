@@ -1,14 +1,53 @@
 <!DOCTYPE html>
-<html>
-<body style="background-image: url('/images/luckydance.gif'); animation: anim 10s linear infinite;"> <br><br><br><br><br>
-		<center>
-			<h1 style="color:black;font-size:130px;"> This is a test page...Im sorry </h1> <br>
-			<h1 style="color:black;font-size:50px;"> Click Arrow To Return To Main Page </h1>
-			<a href="index.html">
-				<img src="/images/download.png" alt="download" class="centerImage" style="width:100px;height:100px;">
-			</a>
-		</center>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>
+        Meister's Domain
+    </title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        * {
+            box-sizing: border-box;
+        }
 
+        .box {
+            float: left;
+            width: 33.33%;
+            padding: 50px;
+        }
+
+        .clearfix::after {
+            content: "";
+            clear: both;
+            display: table;
+        }
+    </style>
+</head>
+<body>
+
+    <h1> THIS IS A TEST PAGE</h1>
+    <h2>Grid of Boxes</h2>
+    <p>Float boxes side by side:</p>
+
+    <div class="clearfix">
+        <div class="box" style="background-color: #e4dc">
+            <p>Some text inside the box.</p>
+        </div>
+        <div class="box" style="background-color: #00ff21">
+            <p>Some text inside the box.</p>
+        </div>
+        <div class="box" style="background-color: #e5dfcc">
+            <p>Some text inside the box.</p>
+        </div>
+    </div>
+
+
+    <!--Main Page Arrow Bottom -->
+    <font size="30"> Main Page:  </font>
+    <a href="index.html">
+        <img src="/images/download.png" alt="download" class="centerImage" style="width:35px;height:35px;">
+    </a>
 </body>
 </html>
 
