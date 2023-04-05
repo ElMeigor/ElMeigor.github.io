@@ -39,13 +39,9 @@ body {
     font-size: 20px;
 }
 
-p {
-    font-size: 20px;
-}
-
 .contentBoxLarge {
     background-color: #e5dfcc;
-    width: 1000px;
+    width: 800px;
     border: 3px outset green;
     padding: 0px;
     margin: 10px;
@@ -71,9 +67,4 @@ p {
     margin: 10px;
     text-align: left;
     font-size: 17px;
-}
-
-.indent {
-    text-indent: 20px;
-    margin-left: 20px;
 }
