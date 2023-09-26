@@ -22,10 +22,6 @@
     text-align: center;
 }
 
-body {
-    background-color: #78a8e8;
-}
-
 .textRight {
     text-align: right;
 }
@@ -40,31 +36,34 @@ body {
 }
 
 .contentBoxLarge {
-    background-color: #e5dfcc;
+    background-color: #2d2b2d;
     width: 800px;
     border: 3px outset green;
     padding: 0px;
     margin: 10px;
     text-align: left;
     font-size: 17px;
+    color: white;
 }
 
 .contentBoxMedium {
-    background-color: #e5dfcc;
+    background-color: #2d2b2d;
     width: 800px;
     border: 3px outset green;
     padding: 0px;
     margin: 10px;
     text-align: left;
     font-size: 17px;
+    color: white;
 }
 
 .contentBoxSmall {
-    background-color: #e5dfcc;
+    background-color: #2d2b2d;
     width: 400px;
     border: 3px outset green;
     padding: 0px;
     margin: 10px;
     text-align: left;
     font-size: 17px;
+    color: white;
 }
